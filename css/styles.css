@@ -1,0 +1,221 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: indianred;
+    /* overflow-x: hidden; */
+}
+
+.cuadroinicial {
+    background-color: rgb(25, 94, 113);
+    height: 30em;
+    width: 20em;
+    border-radius: 2em;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+    
+
+    
+}
+
+.cuadropantallafuera {
+    background-color: rgb(121, 3, 184);
+    height: 12em;
+    width: 18em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cuadropantalladentro {
+    background-color: rgb(21, 196, 152);
+    height: 10em;
+    width: 14em;
+    box-shadow: 0px 0px 30px rgb(50, 113, 50) inset;
+
+    
+}
+
+.cuadrobotones {
+    /* background-color: beige ; */
+    height: 14em;
+    width: 18em;
+    margin-top: 2em;
+    flex-direction: row;
+    display: flex;
+}
+
+#botonesizquierda {
+    /* background-color: blue; */
+    height: 12em;
+    width: 9em;
+}
+
+#botonesizquierdabajo {
+    height: 2em;
+    width: 9em;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#botonesderecha {
+    /* background-color: rgb(0, 255, 38); */
+    height: 12em;
+    width: 9em;
+}
+
+#botonesderechabajo {
+    height: 2em;
+    width: 9em;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cajaboton1 {
+    /* background-color: brown; */
+    height: 5em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#cajaboton2 {
+    /* background-color: rgb(165, 95, 42); */
+    height: 2em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+}
+
+#cajaboton3 {
+    /* background-color: rgb(165, 42, 134); */
+    height: 5em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+}
+
+#boton1 {
+    background-color: rgb(13, 19, 125);
+    height: 2em;
+    width: 2em;
+    border-radius: 0.16em;
+}
+
+#boton2 {
+    background-color:rgb(13, 19, 125);
+    height: 2em;
+    width: 6em;
+    border-radius: 0.16em;
+}
+
+#boton3 {
+    background-color: rgb(13, 19, 125);
+    height: 2em;
+    width: 2em;
+    border-radius: 0.16em;
+}
+
+#boxboton1 {
+    /* background-color: rgb(157, 119, 119); */
+    height: 5em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#boxboton2 {
+    /* background-color: rgb(42, 58, 165); */
+    height: 2em;
+    width: 9em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#boxboton3 {
+    /* background-color: rgb(42, 165, 93); */
+    height: 5em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+}
+
+#boton4 {
+    background-color: rgb(255, 247, 17);
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+
+}
+
+#boton5 {
+    background-color: rgb(120, 20, 153);
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+}
+
+#boton6 {
+    background-color: rgb(199, 17, 175);
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+}
+#boton7 {
+    background-color: rgb(76, 168, 221);
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+}
+
+#botonbajo3 {
+    background-color: beige;
+    height: 2em;
+    width: 2em;
+    border-radius: 1em 0em 0em 1em;
+}
+
+#botonbajo4 {
+    background-color: beige;
+    height: 2em;
+    width: 2em;
+    border-radius: 0em 1em 1em 0em;
+}
+
+#botonbajo1 {
+    background-color: beige;
+    height: 2em;
+    width: 2em;
+    border-radius: 1em 0em 0em 1em;
+}
+
+
+#botonbajo2 {
+    background-color: beige;
+    height: 2em;
+    width: 2em;
+    border-radius: 0em 1em 1em 0em;
+}
+
+
