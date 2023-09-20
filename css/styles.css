@@ -9,9 +9,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     background-color: indianred;
     /* overflow-x: hidden; */
+}
+
+.iniciojuego {
+    height: 10em;
+    width: 14em;
+    /* background-color: blue; */
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.letrasinicio {
+    background-color: rgb(195, 127, 169);
+    height: 5em;
+    width: 10em;
+    color: beige;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-family: monospace;
+    
 }
 
 .cuadroinicial {
@@ -25,9 +50,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding-top: 2em;
-    
-
-    
+       
 }
 
 .cuadropantallafuera {
@@ -38,6 +61,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0em 0em 1em rgb(52, 34, 78);
+    
     
 }
 
@@ -45,9 +70,9 @@ body {
     background-color: rgb(21, 196, 152);
     height: 10em;
     width: 14em;
-    box-shadow: 0px 0px 30px rgb(50, 113, 50) inset;
+    box-shadow: 0em 0em 2em rgb(50, 113, 50) inset,
+    0em 0em 1em rgb(186, 236, 186);
 
-    
 }
 
 .cuadrobotones {
@@ -70,7 +95,6 @@ body {
     width: 9em;
     /* background-color: aquamarine; */
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -85,7 +109,6 @@ body {
     width: 9em;
     /* background-color: blue; */
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -119,6 +142,9 @@ body {
     height: 2em;
     width: 2em;
     border-radius: 0.16em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0.3em 0.3em 0em 0.3em;
+    border-style:groove;
 }
 
 #boton2 {
@@ -126,6 +152,9 @@ body {
     height: 2em;
     width: 6em;
     border-radius: 0.16em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #boton3 {
@@ -133,6 +162,9 @@ body {
     height: 2em;
     width: 2em;
     border-radius: 0.16em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0em 0.3em 0.3em 0.3em;
+    border-style:groove;
 }
 
 #boxboton1 {
@@ -166,6 +198,9 @@ body {
     height: 2em;
     width: 2em;
     border-radius: 2em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0em 0.3em 0.3em 0.3em;
+    border-style:groove;
 
 }
 
@@ -174,6 +209,9 @@ body {
     height: 2em;
     width: 2em;
     border-radius: 2em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0em 0.3em 0.3em 0.3em;
+    border-style:groove;
 }
 
 #boton6 {
@@ -181,41 +219,58 @@ body {
     height: 2em;
     width: 2em;
     border-radius: 2em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0em 0.3em 0.3em 0.3em;
+    border-style:groove;
 }
 #boton7 {
     background-color: rgb(76, 168, 221);
     height: 2em;
     width: 2em;
     border-radius: 2em;
-}
-
-#botonbajo3 {
-    background-color: beige;
-    height: 2em;
-    width: 2em;
-    border-radius: 1em 0em 0em 1em;
-}
-
-#botonbajo4 {
-    background-color: beige;
-    height: 2em;
-    width: 2em;
-    border-radius: 0em 1em 1em 0em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0em 0.3em 0.3em 0.3em;
+    border-style:groove;
 }
 
 #botonbajo1 {
     background-color: beige;
     height: 2em;
-    width: 2em;
-    border-radius: 1em 0em 0em 1em;
+    width: 4em;
+    border-radius: 1em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0em 0.3em 0.3em 0.3em;
+    border-style:groove;
 }
 
 
 #botonbajo2 {
     background-color: beige;
     height: 2em;
-    width: 2em;
-    border-radius: 0em 1em 1em 0em;
+    width: 4em;
+    border-radius: 1em;
+    border-color: rgb(247, 243, 243);
+    border-width: 0em 0.3em 0.3em 0.3em;
+    border-style:groove;
 }
+
+#botondentro2a {
+    height: 1.8em;
+    width: 1.7em;
+    background-color: rgb(13, 19, 125);
+    border-color: rgb(247, 243, 243);
+    border-width: 0.3em 0em 0.3em 0.3em;
+    border-style:groove;
+}
+
+#botondentro2b {
+    height: 1.8em;
+    width: 1.7em;
+    background-color: rgb(13, 19, 125);
+    border-color: rgb(247, 243, 243);
+    border-width: 0.3em 0.3em 0.2em 0em;
+    border-style:groove;
+}
+
 
 
