@@ -72,12 +72,15 @@ body {
     
 }
 
-.cuadropantalladentro {
+#cuadropantalladentro {
     background-color: rgb(21, 196, 152);
     height: 10em;
     width: 14em;
     box-shadow: 0em 0em 5em rgb(31, 73, 31) inset,
     0em 0em 1em rgb(186, 236, 186);
+
+    background-size: cover;
+
 
 }
 
@@ -157,6 +160,7 @@ body {
 #boton1:hover {
     border-width: 0.2em;
     border-style: inset;
+    cursor:pointer;
     
 
 }
@@ -185,6 +189,7 @@ body {
 #boton3:hover {
     border-width: 0.2em;
     border-style: inset;
+    cursor:pointer;
     
 }
 
@@ -236,7 +241,8 @@ body {
 #boton4:hover {
     border-width: 0.2em;
     border-style: inset;
-    border-color: rgb(20, 106, 76);;
+    border-color: rgb(20, 106, 76);
+    cursor:pointer;
 }
 
 #boton5 {
@@ -261,6 +267,7 @@ body {
     border-width: 0.2em;
     border-style: inset;
     border-color:  rgb(168, 165, 3);
+    cursor:pointer;
 }
 
 #boton6 {
@@ -285,6 +292,7 @@ body {
     border-width: 0.2em;
     border-style: inset;
     border-color:  rgb(16, 19, 143);
+    cursor:pointer;
 }
 
 #boton7 {
@@ -309,6 +317,7 @@ body {
     border-width: 0.2em;
     border-style: inset;
     border-color: rgb(171, 3, 3);
+    cursor:pointer;
 }
 
 #botonbajo1 {
@@ -325,8 +334,8 @@ body {
 }
 
 #botonbajo1:hover {
-    /* background-color: rgba(206, 206, 180, 0.904); */
     border-style: ridge;
+    cursor:pointer;
     
 }
 
@@ -345,8 +354,8 @@ body {
 }
 
 #botonbajo2:hover {
-    /* background-color: rgba(206, 206, 180, 0.886); */
     border-style: ridge;
+    cursor:pointer;
     
 }
 
@@ -362,6 +371,7 @@ body {
 #botondentro2a:hover {
     border-width: 0.2em;
     border-style: inset;
+    cursor:pointer;
     
 }
 
@@ -388,6 +398,7 @@ body {
 #botondentro2c:hover {
     border-width: 0.2em;
     border-style: inset;
+    cursor:pointer;
     
 }
 
@@ -403,6 +414,11 @@ body {
     
 }
 
+#botonstart:hover{
+    border-style: ridge;
+    cursor:pointer;
+}
+
 #botonselect {
     height: 2em;
     width: 4em;
@@ -414,6 +430,13 @@ body {
     color:rgba(86, 85, 83, 0.7);
     
 }
+
+#botonselect:hover{
+    border-style: ridge;
+    cursor:pointer;
+}
+
+
 
 
 
