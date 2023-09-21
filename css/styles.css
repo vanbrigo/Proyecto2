@@ -50,9 +50,9 @@ body {
     align-items: center;
     flex-direction: column;
     padding-top: 2em;
-    border-color: rgb(25, 94, 113);
-    border-width: 0.3em 0.6em 0.5em 0.3em;
-    border-style:groove;
+    border-color: rgb(13, 124, 155);
+    border-width: 0.3em 0.7em 0.7em 0.3em;
+    border-style:outset;
        
 }
 
@@ -76,7 +76,7 @@ body {
     background-color: rgb(21, 196, 152);
     height: 10em;
     width: 14em;
-    box-shadow: 0em 0em 2em rgb(31, 73, 31) inset,
+    box-shadow: 0em 0em 5em rgb(31, 73, 31) inset,
     0em 0em 1em rgb(186, 236, 186);
 
 }
@@ -150,7 +150,15 @@ body {
     border-radius: 0.16em;
     border-color: rgb(178, 180, 187);
     border-width: 0.2em 0.2em 0em 0.2em;
+    border-style: outset;
+    
+}
+
+#boton1:hover {
+    border-width: 0.2em;
     border-style: inset;
+    
+
 }
 
 #boton2 {
@@ -163,6 +171,7 @@ body {
     justify-content: space-between;
 }
 
+
 #boton3 {
     background-color: rgb(141, 142, 169);
     height: 2em;
@@ -170,7 +179,13 @@ body {
     border-radius: 0.16em;
     border-color: rgb(178, 180, 187);
     border-width: 0em 0.2em 0.2em 0.2em;
-    border-style:inset;
+    border-style:outset;
+}
+
+#boton3:hover {
+    border-width: 0.2em;
+    border-style: inset;
+    
 }
 
 #boxboton1 {
@@ -204,9 +219,9 @@ body {
     height: 2em;
     width: 2em;
     border-radius: 2em;
-    border-color: rgb(197, 247, 239);
-    border-width: 0em 0.2em 0.2em 0.2em;
-    border-style:groove;
+    border-color: rgb(182, 247, 236);
+    border-width: 0em 0.2em 0.3em 0.2em;
+    border-style:outset;
 
     display: flex;
     justify-content: center;
@@ -218,6 +233,12 @@ body {
 
 }
 
+#boton4:hover {
+    border-width: 0.2em;
+    border-style: inset;
+    border-color: rgb(20, 106, 76);;
+}
+
 #boton5 {
     background-color: rgb(251, 247, 8);
     height: 2em;
@@ -225,7 +246,7 @@ body {
     border-radius: 2em;
     border-color: rgb(247, 243, 243);
     border-width: 0em 0.2em 0.2em 0.2em;
-    border-style:groove;
+    border-style:outset;
 
     display: flex;
     justify-content: center;
@@ -236,14 +257,20 @@ body {
     color: rgb(168, 165, 3);
 }
 
+#boton5:hover {
+    border-width: 0.2em;
+    border-style: inset;
+    border-color:  rgb(168, 165, 3);
+}
+
 #boton6 {
     background-color: rgb(22, 25, 190);
     height: 2em;
     width: 2em;
     border-radius: 2em;
-    border-color: rgb(189, 200, 243);
+    border-color: rgb(156, 171, 232);
     border-width: 0em 0.2em 0.2em 0.2em;
-    border-style:groove;
+    border-style:outset;
 
     display: flex;
     justify-content: center;
@@ -254,15 +281,20 @@ body {
     color:rgb(15, 17, 137);
 }
 
+#boton6:hover {
+    border-width: 0.2em;
+    border-style: inset;
+    border-color:  rgb(16, 19, 143);
+}
 
 #boton7 {
     background-color: rgb(235, 4, 4);
     height: 2em;
     width: 2em;
     border-radius: 2em;
-    border-color: rgb(236, 179, 179);
+    border-color: rgb(235, 167, 167);
     border-width: 0em 0.2em 0.2em 0.2em;
-    border-style:groove;
+    border-style:outset;
 
     display: flex;
     justify-content: center;
@@ -273,17 +305,29 @@ body {
     color:  rgb(168, 4, 4);
 }
 
+#boton7:hover {
+    border-width: 0.2em;
+    border-style: inset;
+    border-color: rgb(171, 3, 3);
+}
+
 #botonbajo1 {
     background-color: beige;
     height: 2em;
     width: 4em;
     border-radius: 1em;
     border-color: rgb(247, 243, 243);
-    border-width: 0em 0.3em 0.3em 0.3em;
+    border-width: 0em 0.3em 0.3em 0.2em;
     border-style:groove;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#botonbajo1:hover {
+    /* background-color: rgba(206, 206, 180, 0.904); */
+    border-style: ridge;
+    
 }
 
 
@@ -293,11 +337,17 @@ body {
     width: 4em;
     border-radius: 1em;
     border-color: rgb(247, 243, 243);
-    border-width: 0em 0.3em 0.3em 0.3em;
+    border-width: 0em 0.3em 0.3em 0.2em;
     border-style:groove;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#botonbajo2:hover {
+    /* background-color: rgba(206, 206, 180, 0.886); */
+    border-style: ridge;
+    
 }
 
 #botondentro2a {
@@ -306,7 +356,13 @@ body {
     background-color: rgb(141, 142, 169);
     border-color:rgb(178, 180, 187);
     border-width: 0.2em 0em 0.2em 0.2em;
-    border-style:inset;
+    border-style:outset;
+}
+
+#botondentro2a:hover {
+    border-width: 0.2em;
+    border-style: inset;
+    
 }
 
 #botondentro2b {
@@ -319,13 +375,20 @@ body {
     border-radius: 1.5em;
 }
 
+
 #botondentro2c {
     height: 1.8em;
     width: 1.7em;
     background-color:rgb(141, 142, 169);
     border-color: rgb(178, 180, 187);
     border-width: 0.2em 0.2em 0.2em 0em;
-    border-style:inset;
+    border-style:outset;
+}
+
+#botondentro2c:hover {
+    border-width: 0.2em;
+    border-style: inset;
+    
 }
 
 #botonstart {
