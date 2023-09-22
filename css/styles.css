@@ -11,7 +11,8 @@ body {
     align-items: center;
     flex-direction: column;
 
-    background-color: indianred;
+    background-color: #f3e6e6;
+    background: radial-gradient(circle,#b051a5,#db5a6c);
     /* overflow-x: hidden; */
 }
 
@@ -43,7 +44,7 @@ body {
     background-color: rgb(25, 94, 113);
     height: 30em;
     width: 20em;
-    border-radius: 2em;
+    border-radius: 2em 2em 4em 2em;
 
     display: flex;
     justify-content: flex-start;
@@ -60,7 +61,7 @@ body {
     background-color: rgb(121, 3, 184);
     height: 12em;
     width: 18em;
-    border-radius: 1em;
+    border-radius: 1em 1em 2em 1em;
     display: flex;
     justify-content: center;
     align-items: center;

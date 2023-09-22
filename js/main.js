@@ -7,13 +7,17 @@ const botonstart = document.getElementById('botonstart');
 
 const botonderecha = document.getElementById('botondentro2c');
 
-let fondo1 = "url('../img/mario.jpeg')";
+const incio = "url('../img/startgif.gif')";
 
-let fondo2 = "url('../img/pacman.jpeg')";
+const fondo1 = "url('../img/mario.jpeg')";
 
-let fondo3 = "url('../img/tetris.png')";
+const fondo2 = "url('../img/pacman.jpeg')";
+
+const fondo3 = "url('../img/tetris.png')";
 
 let fondos = [fondo1, fondo2, fondo3];
+
+let fondosreversa = fondos.slice().reverse();
 
 let i = 0;
 
@@ -26,15 +30,27 @@ document.addEventListener('click', (e)=> {
         break;
 
        case 'botonselect':
-        screen.style.backgroundImage = "url('../img/mario.jpeg')";
+        screen.style.backgroundImage = ("");
+        screen.style.backgroundImage = "url('../img/startgif.gif')";
         break;
 
         case 'botondentro2c':
          if (i<=2){
-         screen.style.backgroundImage = (fondos[i]);
+            screen.style.backgroundImage = ("");
+           screen.style.backgroundImage = (fondos[i]);
+           
          i++;
          }
-         break;
+        break;
+
+         case 'botondentro2a':
+         if (i<=2){
+            screen.style.backgroundImage = ("");
+            screen.style.backgroundImage = (fondosreversa[i]); 
+         i++;
+        break;  
+        
+         }
          
 
     }
