@@ -51,8 +51,8 @@ body {
     align-items: center;
     flex-direction: column;
     padding-top: 2em;
-    border-color: rgb(13, 124, 155);
-    border-width: 0.3em 0.7em 0.7em 0.3em;
+    border-color: rgb(35, 133, 161);
+    border-width: 0.5em 0.8em 0.8em 0.5em;
     border-style:outset;
        
 }
@@ -65,9 +65,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0em 0em 1em rgb(39, 23, 60);
-    border-color: rgb(159, 84, 216);
-    border-width: 0.2em 0em 0.2em 0em;
+    box-shadow: 0em 0em 1em rgb(24, 14, 37);
+    border-color: rgb(109, 58, 148);
+    border-width: 0.2em;
     border-style:groove;
     
     
@@ -77,8 +77,8 @@ body {
     background-color: rgb(21, 196, 103);
     height: 10em;
     width: 14em;
-    box-shadow: 0em 0em 5em rgb(31, 73, 31) inset,
-    0em 0em 1em rgb(186, 236, 186);
+    box-shadow: 0em 0em 5em rgb(52, 120, 52) inset,
+    0em 0em 2em rgb(203, 245, 203);
 
     background-size: cover;
 
@@ -221,11 +221,11 @@ body {
 }
 
 #boton4 {
-    background-color: rgb(14, 153, 38);
+    background-color: rgb(224, 17, 120);
     height: 2em;
     width: 2em;
     border-radius: 2em;
-    border-color: rgb(182, 247, 236);
+    border-color: rgb(247, 182, 220);
     border-width: 0em 0.2em 0.3em 0.2em;
     border-style:outset;
 
@@ -235,14 +235,14 @@ body {
     font-family: monospace;
     font-weight: 600;
     font-size: larger;
-    color: rgb(14, 87, 62);
+    color: rgb(136, 22, 94);
 
 }
 
 #boton4:hover {
     border-width: 0.2em;
     border-style: inset;
-    border-color: rgb(20, 106, 76);
+    border-color: rgb(150, 55, 127);
     cursor:pointer;
 }
 
@@ -261,7 +261,7 @@ body {
     font-family: monospace;
     font-weight: 600;
     font-size: larger;
-    color: rgb(168, 165, 3);
+    color: rgb(166, 146, 17);
 }
 
 #boton5:hover {
@@ -272,11 +272,11 @@ body {
 }
 
 #boton6 {
-    background-color: rgb(22, 25, 190);
+    background-color: rgb(55, 241, 8);
     height: 2em;
     width: 2em;
     border-radius: 2em;
-    border-color: rgb(156, 171, 232);
+    border-color: rgb(194, 232, 156);
     border-width: 0em 0.2em 0.2em 0.2em;
     border-style:outset;
 
@@ -286,22 +286,22 @@ body {
     font-family: monospace;
     font-weight: 600;
     font-size: larger;
-    color:rgb(15, 17, 137);
+    color:rgb(18, 144, 9);
 }
 
 #boton6:hover {
     border-width: 0.2em;
     border-style: inset;
-    border-color:  rgb(16, 19, 143);
+    border-color:  rgb(16, 143, 27);
     cursor:pointer;
 }
 
 #boton7 {
-    background-color: rgb(235, 4, 4);
+    background-color: rgb(4, 208, 235);
     height: 2em;
     width: 2em;
     border-radius: 2em;
-    border-color: rgb(235, 167, 167);
+    border-color: rgb(195, 241, 240);
     border-width: 0em 0.2em 0.2em 0.2em;
     border-style:outset;
 
@@ -311,13 +311,13 @@ body {
     font-family: monospace;
     font-weight: 600;
     font-size: larger;
-    color:  rgb(168, 4, 4);
+    color:  rgb(4, 113, 168);
 }
 
 #boton7:hover {
     border-width: 0.2em;
     border-style: inset;
-    border-color: rgb(171, 3, 3);
+    border-color: rgb(3, 154, 171);
     cursor:pointer;
 }
 
