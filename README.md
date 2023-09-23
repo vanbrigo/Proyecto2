@@ -18,26 +18,26 @@ Este es un diseño frontal de una consola portatil con botones dinamicos. Esta c
 
  ## Tecnologias Utilizadas
 
- [HTML5,CSS3,JS](./img/tecnologias.jpeg)
+ (img/tecnologias.jpeg)
 
  ## Funcionamiento
  La consola tiene 4 botones interactivos;
 
  El primero seria Start, que en este caso utilizamos para encender la pantalla y que al presionar nos reproduce el inicio o encendido de la consola.
 
- (./img/botonestartexplicacion.png)
+ (img/botonestartexplicacion.png)
 
  El segundo boton interactivo seria en boton derecho dentro de la cruz de botones, el cual en un primer click muestra el primer juego disponible pero que a un segundo y tercer click, muestra otras opciones de juegos.
 
- (./img/botonderechoexplicacion.png)
+ (img/botonderechoexplicacion.png)
 
  El siguiente seria el boton izquierdo dentro del boton cruz, este realiza una tarea parecida al boton derecho, con la difrencia de que muestra los mismos juegos en un orden reverso, en caso de estar a mitad de la lista de juegos se podria ir hacia atras con este boton.
 
- (./img/botonizquierdoexplicacion.png)
+ (img/botonizquierdoexplicacion.png)
 
  El ultimo de los botones interactivos seria el boton select, el cual al presionar nos lleva de regreso a la pantalla inicial.
 
- (./img/botonselectexplicacion.png)
+ (img/botonselectexplicacion.png)
 
  ## Bugs 
  El primer error que puedo mencionar es el funcionamiento del boton izquierdo del boton cruz, ya que aunque en principio cumple su funcion, estaba diseñado para ir hacia atras en cada avance del boton derecho , pero en cambio solo lo realiza si el boton derecho no ha llegado al ultimo juego de la seleccion o si no se ha utilizado el boton derecho en absoluto.
