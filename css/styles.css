@@ -74,7 +74,7 @@ body {
 }
 
 #cuadropantalladentro {
-    background-color: rgb(21, 196, 152);
+    background-color: rgb(21, 196, 103);
     height: 10em;
     width: 14em;
     box-shadow: 0em 0em 5em rgb(31, 73, 31) inset,
@@ -221,7 +221,7 @@ body {
 }
 
 #boton4 {
-    background-color: rgb(25, 130, 93);
+    background-color: rgb(14, 153, 38);
     height: 2em;
     width: 2em;
     border-radius: 2em;
