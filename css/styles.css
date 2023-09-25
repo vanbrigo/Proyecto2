@@ -20,24 +20,24 @@ body {
     height: 10em;
     width: 14em;
     /* background-color: blue; */
-    margin: 1em;
+    margin: 0.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 
-.letrasinicio {
-    background-color: rgb(195, 127, 169);
-    height: 5em;
-    width: 10em;
-    color: rgb(249, 249, 16);
-    display: contents;
+#letrasinicio {
+    /* background-color: rgb(96, 32, 72); */
+    height: 7em;
+    width: 20em;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5em;
-    font-family: monospace;
+    background-image: url(../img/press.gif);
+    background-size: cover;
     
+        
 }
 
 .cuadroinicial {
@@ -51,9 +51,10 @@ body {
     align-items: center;
     flex-direction: column;
     padding-top: 2em;
-    border-color: rgb(35, 133, 161);
+    border-color: rgb(14, 103, 123);
     border-width: 0.5em 0.8em 0.8em 0.5em;
     border-style:outset;
+    background: radial-gradient(circle,#0f6670,#024c6f);
        
 }
 
@@ -70,18 +71,16 @@ body {
     border-width: 0.2em;
     border-style:groove;
     
-    
 }
 
 #cuadropantalladentro {
-    background-color: rgb(21, 196, 103);
+    background-color: rgb(80, 200, 136);
     height: 10em;
     width: 14em;
-    box-shadow: 0em 0em 5em rgb(52, 120, 52) inset,
-    0em 0em 2em rgb(203, 245, 203);
+    box-shadow: 0em 0em 3em rgb(37, 85, 37) inset,
+    0em 0em 3em rgb(226, 250, 226);
 
     background-size: cover;
-
 
 }
 
@@ -163,7 +162,6 @@ body {
     border-style: inset;
     cursor:pointer;
     
-
 }
 
 #boton2 {

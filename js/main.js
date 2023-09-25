@@ -7,6 +7,8 @@ const botonstart = document.getElementById('botonstart');
 
 const botonderecha = document.getElementById('botondentro2c');
 
+const letrasinicio = document.getElementById('letrasinicio');
+
 const incio = "url('./img/startgif.gif')";
 
 const fondo1 = "url('./img/mario.jpeg')";
@@ -27,6 +29,7 @@ document.addEventListener('click', (e)=> {
     switch (e.target.id){
        case 'botonstart':
         screen.style.backgroundImage = "url('./img/startgif.gif')";
+        letrasinicio.style.backgroundImage = "url('')";
         break;
 
        case 'botonselect':
@@ -35,20 +38,23 @@ document.addEventListener('click', (e)=> {
 
         case 'botondentro2c':
          if (i<=2){
-            screen.style.backgroundImage = ("");
+           screen.style.backgroundImage = ("");
            screen.style.backgroundImage = (fondos[i]);
            
          i++;
+         } else {
+            i=0
          }
+         
         break;
 
          case 'botondentro2a':
-         if (i<=2){
+         if (i>=0){
             screen.style.backgroundImage = ("");
-            screen.style.backgroundImage = (fondosreversa[i]); 
-         i++;
-        break;  
-        
+            screen.style.backgroundImage = (fondos[i]); 
+         i--;
+         } else {
+            i=2
          }
          
 
