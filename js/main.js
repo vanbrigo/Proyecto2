@@ -19,8 +19,6 @@ const fondo3 = "url('./img/tetris.png')";
 
 let fondos = [fondo1, fondo2, fondo3];
 
-let fondosreversa = fondos.slice().reverse();
-
 let i = 0;
 
 
@@ -37,23 +35,27 @@ document.addEventListener('click', (e)=> {
         break;
 
         case 'botondentro2c':
-         if (i<=2){
+         if (i<2){
            screen.style.backgroundImage = ("");
            screen.style.backgroundImage = (fondos[i]);
            
          i++;
+
          } else {
+            screen.style.backgroundImage = (fondos[i]);
             i=0
+            
          }
          
         break;
 
          case 'botondentro2a':
-         if (i>=0){
+         if (i>0){
             screen.style.backgroundImage = ("");
             screen.style.backgroundImage = (fondos[i]); 
          i--;
          } else {
+            screen.style.backgroundImage = (fondos[i]);
             i=2
          }
          
